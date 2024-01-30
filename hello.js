@@ -1,1 +1,4 @@
-console.log('hello world');
+var a = 'anish';
+var b = ' silvestern';
+
+console.log(a+b);
