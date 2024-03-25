@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+       
+}
+
+.griditems {
+    border: 10px solid gray;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Links {
+    grid-column: 1 / span 2;
+}
+
+.content {
+    grid-column: 1 /span 1;
+}
+
+.Activities {
+    grid-column: 1 /span 1;
+}
+
+.RoadMap {
+    height: 123%;
+}

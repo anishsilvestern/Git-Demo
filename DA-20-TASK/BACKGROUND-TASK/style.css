@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(233, 255, 233);
+}
+
+
+.bg{
+    background-color: rgb(141, 255, 141);
+}
+
+.logo {
+    height: 33px;
+}
+
+.titleHeader a img {
+    max-width: 100%;
+}
+
+.titleHeader {
+    font-family: "Madimi One", sans-serif;
+    font-size: 2.9rem;
+    font-style: normal;
+  }
+
+  .navMenu {
+    font-size: x-large;
+    font-weight: bolder;
+  }
+
+  .sampleImage1 {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .sampleImage2 {
+        display: none;
+    }
+
+    .para {
+        padding: 1%;
+        margin: 0 10px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .photoChoose {
+        padding: 5%;
+        max-width: 100%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #fileInput {
+        display: none;
+    }
+
+  
+  
+  @media (max-width: 991px) { 
+    .logo {
+        height: 53px;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .sampleImage1 {
+        display: none;
+    }
+
+    .sampleImage2 img {
+        max-width: 100%; /* Limits the maximum width of the image to its container */
+        height: auto; /* Maintains the aspect ratio of the image */
+    }
+    
+    .finalPhoto img {
+        max-width: 100%;
+        height: auto;
+      }
+
+    .sampleImage2 {
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 443px) {
+
+    .titleHeader {
+        display: none;
+    }
+
+    .para {
+        text-align: center;
+        font-size: small;
+    }
+
+    .buttonTitle {
+        font-size: xx-small;
+    }
+
+  }
+
+  @media (max-width: 298px) {
+    .uploadButton {
+        display: flex;
+        margin-top: 10px;
+    }
+    
+  }
+

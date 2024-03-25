@@ -1,0 +1,30 @@
+#container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+}
+
+.gridItem {
+    background-color: antiquewhite;
+    border: 10px solid red;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    grid-column: 1 / span 2;
+}
+
+.title {
+    grid-column: 1 / span 2;
+}
+
+.source {
+    grid-column: 1;
+}
+
+.subscribe {
+    grid-column: 1;
+}

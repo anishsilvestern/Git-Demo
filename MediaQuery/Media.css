@@ -1,0 +1,28 @@
+.menuIcon {
+    font-size: 40px;
+}
+
+.menuList {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .menuList {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        
+    }
+
+    .menuList a {
+        text-decoration: none;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+}

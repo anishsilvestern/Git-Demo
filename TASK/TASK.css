@@ -1,0 +1,80 @@
+* {
+    background-color: rgb(236, 245, 247);
+}
+
+h1 {
+    background-color: green;
+    padding-bottom: 4px;
+    color: white;
+}
+
+form {
+    text-align: center;
+}
+
+#submit {
+    position: relative;
+    top: 20px;
+    right: 40px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    
+        
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+input {
+    padding: 10px;
+}
+
+#email {
+    border-radius: 10px;
+    margin-right: 105px;
+}
+
+#password {
+    margin-right: 235px;
+    border-radius: 10px;
+}
+
+.copy2024 {
+    text-align: center;
+    
+}
+
+#submit:hover {
+    color: white;
+    background-color: red;
+    
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(197, 235, 200);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+label {
+    background-color: rgb(197, 235, 200);
+}
+
+#flname {
+    background-color: rgb(197, 235, 200);
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
